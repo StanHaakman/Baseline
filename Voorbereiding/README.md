@@ -1,4 +1,11 @@
 Hier vind je alle voorbereidingen die ik heb gedaan
 
-<h2>Homepage Mockup's</h2>
- <img src="img/Annotation 2019-06-27 133702.png" width="350" title="hover text">
+<h2>Landingspagina Mockup</h2>
+ <img src="img/Annotation 2019-06-27 133702.png" title="hover text">
+ <br>
+ <br>
+ 
+<h2>Tarieven pagina Mockup</h2>
+ <img src="img/Annotation 2019-06-27 140413.png" title="hover text">
+ 
+
