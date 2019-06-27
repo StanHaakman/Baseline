@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 80px;
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1050;
+}
+
+header .logo {
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #29aae2;
+    border-bottom: 1px solid #29aae2;
+}
+
+.menu-toggle {
+    color: #333;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    transition-duration: 1000ms
+}
+
+.header-img {
+    height: 50vh;
+    background-image: url('https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49138042_910509335822226_6974108848034414592_o.jpg?_nc_cat=102&_nc_ht=scontent-amt2-1.xx&oh=b445acfb8772ad58189c9ab2c982606f&oe=5D6FC1F2');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -999;
+}
+
+.contentContainer {
+    display: inline;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.header_text {
+    color: #29aae2;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 300%;
+    width: 50%;
+    padding: 10px;
+    top: 30vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top_omschrijving {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px 10vw;
+}
+
+.left_header {
+    font-size: 25px;
+    color: #a1a1a1;
+    text-align: center;
+    width: 40vw;
+    border-right: 1px #29aae2 solid;
+    padding: 40px 10px
+}
+
+.right_header {
+    font-size: 25px;
+    color: #a1a1a1;
+    text-align: center;
+    width: 40vw;
+    padding: 40px 10px;
+}
+
+.aantallen_box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px 5vw;
+    margin: auto;
+    text-align: center;
+    background-color: #29aae2;
+    color: #fff;
+    font-size: 25px;
+}
+
+.aantal_deelnemers {
+    width: 30vw;
+}
+
+.aantal_trainingen {
+    width: 30vw;
+}
+
+.aantal_uren {
+    width: 30vw;
+}
+
+.trainings_locaties {
+    text-align: center;
+    color: #29aae2;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.locaties{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.locaties img{
+    width: 75px;
+    height: 100px;
+    background-color: #828282;
+    padding: 30px;
+    color: #fff;
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color: #fff; 
+  padding: 20px 0;
+}
+
+.footer_nav{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_nav_item{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+.footer_icons{
+    text-align: center;
+    font-size: 25px;
+}
+
+.prijs_kaart_header{
+    text-align: center;
+}
+
+.prijs_kaart1{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background: #29aae2;
+    color: #fff;
+    padding: 30px 35px;
+    font-family: 'Montserrat', sans-serif;
+    height: 35vh;
+}
+
+.prijs_kaart2{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: rgb(223, 223, 223);
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    height: 35vh;
+    padding: 30px 35px;
+}
+
+.kaart1_omschrijving{
+    padding: 20px 30px;
+    text-align: justify;
+    max-width: 80%;
+}
+
+.kaart2_omschrijving{
+    padding: 20px 30px;
+}
+
+.empty_space{
+    min-width: 35vw;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.facebook_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+    header nav ul li a:hover,
+    header nav ul li a.active {
+        color: #29aae2;
+        border-bottom: 0;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 50vw;
+        height: calc(100vh - 50px);
+        background: #fff;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    .top_omschrijving {
+        display: inline;
+    }
+
+    .left_header {
+        width: 80vw;
+        border-bottom: 1px #29aae2 solid;
+        border-right: 0;
+        margin: auto;
+    }
+
+    .right_header {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .aantallen_box {
+        display: block;
+    }
+
+    .aantal_deelnemers {
+        margin: 20px auto;
+    }
+
+    .aantal_trainingen {
+        margin: 20px auto;
+    }
+
+    .aantal_uren {
+        margin: 20px auto;
+    }
+    
+    .locaties{
+        display: inline;
+    }
+
+    .prijs_kaart1{
+        display: inline-block;
+    }
+
+    .prijs_kaart2{
+        display: inline-block;
+    }
+    
+    .empty_space{
+        min-width: 0;
+    }
+}
