@@ -1,6 +1,6 @@
 <footer>
         <div class="footer_nav">
-            <a class="footer_nav_item" href="/">Home</a>/<a class="footer_nav_item" href="/trainingen">Trainingen</a>/<a class="footer_nav_item" href="/tarieven">Tarieven</a>/<a class="footer_nav_item" href="/contact">Contact</a>
+            <a class="footer_nav_item" href="index.php">Home</a>/<a class="footer_nav_item" href="trainingen.php">Trainingen</a>/<a class="footer_nav_item" href="tarieven.php">Tarieven</a>/<a class="footer_nav_item" href="contact.php">Contact</a>
         </div>
         <div class="footer_icons">
             <span>
@@ -23,12 +23,6 @@
                 $('#menu-icon').toggleClass('fa-times');
                 $('#menu-icon').toggleClass('fa-bars');
             })
-        })
-        document.write(
-            '<script src="http://' +
-            (location.host || '${1:localhost}').split(':')[0] +
-            ':${2:35729}/livereload.js?snipver=1"></' +
-            'script>'
-        );
+        });
 </script>
 </html>
