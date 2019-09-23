@@ -68,7 +68,7 @@ header nav ul li a.active {
 
 .header-img {
     height: 50vh;
-    background-image: url('https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49138042_910509335822226_6974108848034414592_o.jpg?_nc_cat=102&_nc_ht=scontent-amt2-1.xx&oh=b445acfb8772ad58189c9ab2c982606f&oe=5D6FC1F2');
+    background-image: url('../img/header-img.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
