@@ -14,6 +14,9 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
     <script>
@@ -22,7 +25,19 @@
                 $('nav').toggleClass('active');
                 $('#menu-icon').toggleClass('fa-times');
                 $('#menu-icon').toggleClass('fa-bars');
-            })
+            });
+            
+            $('.count').each(function () {
+                var $this = $(this);
+                jQuery({ Counter: 0 }).delay(400).animate({ Counter: $this.attr('data-stop') }, {
+                    duration: 3000,
+                    easing: 'swing',
+                    step: function (now) {
+                    this.text(Math.ceil(now));
+                    }
+                });
+            });
         });
 </script>
+
 </html>

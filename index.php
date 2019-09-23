@@ -49,20 +49,11 @@
 
     <script>
         $(document).ready(function(){
-            $('.count').each(function () {
-                var $this = $(this);
-                jQuery({ Counter: 0 }).delay(2000).animate({ Counter: $this.attr('data-stop') }, {
-                    duration: 3000,
-                    easing: 'swing',
-                    step: function (now) {
-                    $this.text(Math.ceil(now));
-                    }
-                });
-            });
-
             $('.home').addClass('active');
         });
     </script>
+
+
 
 
 <?php include 'footer.php' ?>

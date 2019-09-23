@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-nl">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta name="description" content="Website voor Baseline Hoogwoud. Trainingen door de week. Medemblik. Bootcamp">
         <meta name="author" content="Stan Haakman">
 
         <link rel="stylesheet" href="css/style.css">
@@ -12,8 +12,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>Baseline</title>
     </head>
 
     <body>

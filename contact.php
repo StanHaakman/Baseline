@@ -42,7 +42,6 @@
 
     <script>
         $(document).ready(function(){
-
             $('.contact').addClass('active');
         });
     </script>
