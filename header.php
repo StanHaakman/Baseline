@@ -13,6 +13,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <title>Baseline</title>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -21,16 +26,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="index.php" class="home">Home</a>
+                        <a rel="noopener" href="index.php" class="home">Home</a>
                     </li>
                     <li>
-                        <a href="trainingen.php" class="trainingen">Trainingen</a>
+                        <a rel="noopener" href="trainingen.php" class="trainingen">Trainingen</a>
                     </li>
                     <li>
-                        <a href="tarieven.php" class="tarieven">Tarieven</a>
+                        <a rel="noopener" href="tarieven.php" class="tarieven">Tarieven</a>
                     </li>
                     <li>
-                        <a href="contact.php" class="contact">Contact</a>
+                        <a rel="noopener" href="contact.php" class="contact">Contact</a>
                     </li>
                 </ul>
             </nav>
