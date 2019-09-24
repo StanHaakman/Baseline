@@ -68,9 +68,7 @@ header nav ul li a.active {
 
 .header-img {
     height: 50vh;
-    background-image: url('../img/header-img.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../img/header-img.jpeg') center no-repeat;
     background-size: cover;
     position: relative;
     z-index: -999;
@@ -247,15 +245,11 @@ footer{
 }
 .input_1_wrapper{
     padding: 10px;
-    box-shadow: 0 10px 30px 0px rgba(191,191,191,0.5);
+    box-shadow: 0 10px 30px 0 rgba(191,191,191,0.5);
     box-sizing: border-box;
     position: relative;
     margin-bottom: 30px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     width: 100%;
 }
 
@@ -278,10 +272,6 @@ footer{
     outline: none;
     font-size: 18px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
 }
 
 .omschrijving{
@@ -372,10 +362,6 @@ footer{
         top: 50px;
         left: -100%;
         transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
     }
 
     header nav.active {
