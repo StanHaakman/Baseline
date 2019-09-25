@@ -10,7 +10,7 @@
                 <p>Neem dan contact met me op door middel van het contact formulier, dan krijgt u zo snel mogelijk reactie!</p>
 
                 <div class="contact_img">
-                    <img src="img/img-01.png" alt="">
+                    <img src="dist/img/img-01.png" alt="">
                 </div>
             </div>
             <div class="formulier">
